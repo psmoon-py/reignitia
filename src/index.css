@@ -1,0 +1,11 @@
+/* Tailwind base config
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*/
+
+body {
+  background: #050816;
+  margin: 0;
+  font-family: 'Inter', 'sans-serif';
+}
