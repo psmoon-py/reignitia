@@ -1,33 +1,83 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
+import { Layout } from '@/components/layout/Layout';
+import { Landing } from '@/pages/Landing';
 
-function Landing() {
-  return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h1 className="text-4xl font-bold mb-2">ReIgnitia</h1><p>Mission control for students, anywhere in the world.</p></div>;
-}
+// Temporary placeholder components
 function Onboarding() {
-  return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2 className="text-2xl font-bold">Launch Your Universe</h2><p>Onboarding wizard coming soon…</p></div>;
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">Onboarding Wizard</h2>
+      <p className="text-gray-400">Coming soon: Multi-step profile setup</p>
+    </div>
+  );
 }
+
 function Universe() {
-  return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2 className="text-2xl font-bold">3D Universe</h2><p>Main mission control will appear here.</p></div>;
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">3D Universe</h2>
+      <p className="text-gray-400">Coming soon: Interactive mission control constellation</p>
+    </div>
+  );
 }
-// Add more placeholders as needed
-function MissionsList() { return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2>Missions List</h2></div>; }
-function Resources() { return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2>Resources Explorer</h2></div>; }
-function Opportunities() { return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2>Opportunities</h2></div>; }
-function Account() { return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2>Account</h2></div>; }
-function About() { return <div className="min-h-screen bg-[#050816] flex flex-col items-center justify-center text-white"><h2>About</h2></div>; }
+
+function MissionsList() {
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">Missions List</h2>
+      <p className="text-gray-400">Coming soon: Accessible 2D mission view</p>
+    </div>
+  );
+}
+
+function Resources() {
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">Resources Explorer</h2>
+      <p className="text-gray-400">Coming soon: Searchable resource catalog</p>
+    </div>
+  );
+}
+
+function Opportunities() {
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">Opportunities</h2>
+      <p className="text-gray-400">Coming soon: Scholarships, internships, competitions</p>
+    </div>
+  );
+}
+
+function Account() {
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">Account</h2>
+      <p className="text-gray-400">Coming soon: Profile management and data export</p>
+    </div>
+  );
+}
+
+function About() {
+  return (
+    <div className="min-h-screen bg-space-dark flex flex-col items-center justify-center text-white">
+      <h2 className="text-3xl font-bold mb-4">About ReIgnitia</h2>
+      <p className="text-gray-400">Coming soon: Our story, mission, and credits</p>
+    </div>
+  );
+}
 
 function App() {
   return (
     <Routes>
-      <Route path="/" element={<Landing />} />
-      <Route path="/launch" element={<Onboarding />} />
-      <Route path="/universe" element={<Universe />} />
-      <Route path="/missions/list" element={<MissionsList />} />
-      <Route path="/resources" element={<Resources />} />
-      <Route path="/opportunities" element={<Opportunities />} />
-      <Route path="/account" element={<Account />} />
-      <Route path="/about" element={<About />} />
+      <Route path="/" element={<Layout showNav={false} showFooter={false}><Landing /></Layout>} />
+      <Route path="/launch" element={<Layout><Onboarding /></Layout>} />
+      <Route path="/universe" element={<Layout><Universe /></Layout>} />
+      <Route path="/missions/list" element={<Layout><MissionsList /></Layout>} />
+      <Route path="/resources" element={<Layout><Resources /></Layout>} />
+      <Route path="/opportunities" element={<Layout><Opportunities /></Layout>} />
+      <Route path="/account" element={<Layout><Account /></Layout>} />
+      <Route path="/about" element={<Layout><About /></Layout>} />
     </Routes>
   );
 }
