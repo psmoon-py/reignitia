@@ -1,0 +1,122 @@
+[
+  {
+    "id": "mission-learning-001",
+    "ringId": "learning",
+    "title": "Master Algebra Fundamentals",
+    "shortDescription": "Build a solid foundation in algebraic thinking",
+    "longDescription": "Complete a structured path covering variables, equations, functions, and problem-solving strategies using free resources from Khan Academy and OpenStax.",
+    "goalType": "skill",
+    "timeEstimateMinutes": 720,
+    "timeHorizon": "4-week",
+    "difficulty": 2,
+    "prerequisites": [],
+    "tags": ["math", "algebra", "fundamentals"],
+    "bandwidthProfile": "medium",
+    "steps": [
+      {
+        "id": "step-001-1",
+        "title": "Introduction to Variables",
+        "description": "Learn what variables are and how they represent unknown values",
+        "timeEstimateMinutes": 45,
+        "resourceRefs": ["resource-khan-algebra-intro"],
+        "type": "watch"
+      },
+      {
+        "id": "step-001-2",
+        "title": "Practice Basic Equations",
+        "description": "Solve 20 one-variable equations",
+        "timeEstimateMinutes": 60,
+        "resourceRefs": ["resource-khan-algebra-practice"],
+        "type": "practice"
+      },
+      {
+        "id": "step-001-3",
+        "title": "Understanding Functions",
+        "description": "Explore the concept of functions and their graphs",
+        "timeEstimateMinutes": 90,
+        "resourceRefs": ["resource-openstax-algebra"],
+        "type": "read"
+      }
+    ]
+  },
+  {
+    "id": "mission-money-001",
+    "ringId": "money-aid",
+    "title": "Create Your First Student Budget",
+    "shortDescription": "Track expenses and plan for the essentials",
+    "longDescription": "Set up a realistic budget covering fixed costs, variable expenses, and savings goals using simple templates and money-saving strategies.",
+    "goalType": "survival",
+    "timeEstimateMinutes": 180,
+    "timeHorizon": "1-week",
+    "difficulty": 1,
+    "prerequisites": [],
+    "tags": ["budgeting", "money", "survival"],
+    "bandwidthProfile": "low",
+    "steps": [
+      {
+        "id": "step-002-1",
+        "title": "List Your Fixed Costs",
+        "description": "Write down rent, fees, transport, and other regular expenses",
+        "timeEstimateMinutes": 30,
+        "resourceRefs": ["resource-mint-budget-guide"],
+        "type": "plan"
+      },
+      {
+        "id": "step-002-2",
+        "title": "Track Variable Spending",
+        "description": "Monitor food, entertainment, and flexible costs for one week",
+        "timeEstimateMinutes": 60,
+        "resourceRefs": ["resource-wisebread-tracking"],
+        "type": "budget"
+      },
+      {
+        "id": "step-002-3",
+        "title": "Set One Savings Goal",
+        "description": "Decide on a small, achievable monthly savings target",
+        "timeEstimateMinutes": 20,
+        "resourceRefs": [],
+        "type": "reflect"
+      }
+    ]
+  },
+  {
+    "id": "mission-health-001",
+    "ringId": "health",
+    "title": "Build a Sustainable Sleep Routine",
+    "shortDescription": "Improve your rest and energy levels",
+    "longDescription": "Design a sleep schedule that fits your life, using evidence-based tips and tools like Sleepyti.me.",
+    "goalType": "mental-health",
+    "timeEstimateMinutes": 120,
+    "timeHorizon": "1-week",
+    "difficulty": 1,
+    "prerequisites": [],
+    "tags": ["sleep", "wellbeing", "health"],
+    "bandwidthProfile": "low",
+    "steps": [
+      {
+        "id": "step-003-1",
+        "title": "Learn About Sleep Cycles",
+        "description": "Understand REM and non-REM sleep phases",
+        "timeEstimateMinutes": 30,
+        "resourceRefs": ["resource-nhs-sleep"],
+        "type": "read"
+      },
+      {
+        "id": "step-003-2",
+        "title": "Calculate Your Ideal Bedtime",
+        "description": "Use sleep cycle calculator to find optimal sleep and wake times",
+        "timeEstimateMinutes": 15,
+        "resourceRefs": ["resource-sleepytime"],
+        "type": "plan"
+      },
+      {
+        "id": "step-003-3",
+        "title": "Test Your Routine for 7 Days",
+        "description": "Stick to your new schedule and journal how you feel",
+        "timeEstimateMinutes": 75,
+        "resourceRefs": [],
+        "type": "reflect"
+      }
+    ]
+  }
+]
