@@ -62,7 +62,7 @@ export const Landing: React.FC = () => {
               Re<span className="text-accent-cyan">I</span>gnitia
             </h1>
             <p className="text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto">
-              Mission control for students, anywhere in the world.
+              Power Your Potential
             </p>
             <p className="text-lg text-gray-400 mb-12 max-w-2xl mx-auto">
               Turn every part of student life—learning, money, food, health, opportunities, and curiosity—into a personalized constellation of missions, powered only by free resources.
