@@ -1,0 +1,50 @@
+[
+  {
+    "id": "learning",
+    "name": "Learning & Skills",
+    "description": "Master core subjects and develop new skills through structured paths",
+    "colorHex": "#06b6d4",
+    "icon": "GraduationCap",
+    "orderIndex": 1
+  },
+  {
+    "id": "money-aid",
+    "name": "Money, Survival & Aid",
+    "description": "Budget wisely, access financial aid, and understand scholarships",
+    "colorHex": "#fbbf24",
+    "icon": "DollarSign",
+    "orderIndex": 2
+  },
+  {
+    "id": "food-living",
+    "name": "Food & Living",
+    "description": "Cook affordable meals and master essential life skills",
+    "colorHex": "#f97316",
+    "icon": "Utensils",
+    "orderIndex": 3
+  },
+  {
+    "id": "health",
+    "name": "Health & Pulse",
+    "description": "Monitor wellbeing, reduce stress, and maintain mental health",
+    "colorHex": "#14b8a6",
+    "icon": "Heart",
+    "orderIndex": 4
+  },
+  {
+    "id": "opportunities",
+    "name": "Opportunities & Future",
+    "description": "Find scholarships, internships, and plan your academic journey",
+    "colorHex": "#ec4899",
+    "icon": "Briefcase",
+    "orderIndex": 5
+  },
+  {
+    "id": "curiosity",
+    "name": "Curiosity & Culture",
+    "description": "Explore ideas, broaden horizons, and keep learning joyful",
+    "colorHex": "#8b5cf6",
+    "icon": "Sparkles",
+    "orderIndex": 6
+  }
+]

@@ -1,0 +1,93 @@
+[
+  {
+    "id": "resource-khan-algebra-intro",
+    "title": "Khan Academy: Algebra Basics",
+    "url": "https://www.khanacademy.org/math/algebra",
+    "category": "education",
+    "sourceName": "Khan Academy",
+    "description": "Free, comprehensive video lessons on algebraic concepts",
+    "languages": ["en", "es", "fr", "pt"],
+    "cost": "free",
+    "dataIntensity": "medium",
+    "regionAvailability": "global",
+    "tags": ["math", "algebra", "video", "interactive"]
+  },
+  {
+    "id": "resource-khan-algebra-practice",
+    "title": "Khan Academy: Algebra Practice",
+    "url": "https://www.khanacademy.org/math/algebra/exercises",
+    "category": "education",
+    "sourceName": "Khan Academy",
+    "description": "Interactive practice problems with instant feedback",
+    "languages": ["en"],
+    "cost": "free",
+    "dataIntensity": "low",
+    "regionAvailability": "global",
+    "tags": ["math", "algebra", "practice"]
+  },
+  {
+    "id": "resource-openstax-algebra",
+    "title": "OpenStax: College Algebra",
+    "url": "https://openstax.org/details/books/college-algebra",
+    "category": "education",
+    "sourceName": "OpenStax",
+    "description": "Free, peer-reviewed algebra textbook",
+    "languages": ["en"],
+    "cost": "free",
+    "dataIntensity": "low",
+    "regionAvailability": "global",
+    "tags": ["math", "algebra", "textbook", "pdf"]
+  },
+  {
+    "id": "resource-mint-budget-guide",
+    "title": "Mint: Student Budgeting Guide",
+    "url": "https://mint.intuit.com/how-to-budget",
+    "category": "money",
+    "sourceName": "Mint",
+    "description": "Step-by-step guide to creating your first budget",
+    "languages": ["en"],
+    "cost": "free",
+    "dataIntensity": "low",
+    "regionAvailability": "US, CA, UK",
+    "tags": ["budgeting", "money", "guide"]
+  },
+  {
+    "id": "resource-wisebread-tracking",
+    "title": "WiseBread: Expense Tracking Tips",
+    "url": "https://www.wisebread.com/expense-tracking",
+    "category": "money",
+    "sourceName": "WiseBread",
+    "description": "Practical advice for monitoring your spending",
+    "languages": ["en"],
+    "cost": "free",
+    "dataIntensity": "low",
+    "regionAvailability": "global",
+    "tags": ["budgeting", "tracking", "money"]
+  },
+  {
+    "id": "resource-nhs-sleep",
+    "title": "NHS: How to Get Better Sleep",
+    "url": "https://www.nhs.uk/live-well/sleep-and-tiredness/",
+    "category": "health",
+    "sourceName": "NHS",
+    "description": "Evidence-based sleep guidance from UK health service",
+    "languages": ["en"],
+    "cost": "free",
+    "dataIntensity": "low",
+    "regionAvailability": "global",
+    "tags": ["sleep", "health", "wellbeing"]
+  },
+  {
+    "id": "resource-sleepytime",
+    "title": "Sleepyti.me Calculator",
+    "url": "https://sleepyti.me/",
+    "category": "health",
+    "sourceName": "Sleepyti.me",
+    "description": "Calculate optimal sleep and wake times based on sleep cycles",
+    "languages": ["en"],
+    "cost": "free",
+    "dataIntensity": "low",
+    "regionAvailability": "global",
+    "tags": ["sleep", "calculator", "tool"]
+  }
+]
